@@ -1,0 +1,130 @@
+{
+  "apiRoutes": [],
+  "htmlRoutes": [
+    {
+      "file": "./(student)/index.tsx",
+      "page": "/(student)/index",
+      "namedRegex": "^(?:/\\(student\\))?(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(admin)/students/index.tsx",
+      "page": "/(admin)/students/index",
+      "namedRegex": "^(?:/\\(admin\\))?/students(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(admin)/index.tsx",
+      "page": "/(admin)/index",
+      "namedRegex": "^(?:/\\(admin\\))?(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./index.tsx",
+      "page": "/index",
+      "namedRegex": "^/(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(student)/profile.tsx",
+      "page": "/(student)/profile",
+      "namedRegex": "^(?:/\\(student\\))?/profile(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true
+    },
+    {
+      "file": "./(admin)/analytics.tsx",
+      "page": "/(admin)/analytics",
+      "namedRegex": "^(?:/\\(admin\\))?/analytics(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(student)/placements.tsx",
+      "page": "/(student)/placements",
+      "namedRegex": "^(?:/\\(student\\))?/placements(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(admin)/placements.tsx",
+      "page": "/(admin)/placements",
+      "namedRegex": "^(?:/\\(admin\\))?/placements(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(student)/internships.tsx",
+      "page": "/(student)/internships",
+      "namedRegex": "^(?:/\\(student\\))?/internships(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(auth)/admin-login.tsx",
+      "page": "/(auth)/admin-login",
+      "namedRegex": "^(?:/\\(auth\\))?/admin\\-login(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(admin)/students/bulk-import.tsx",
+      "page": "/(admin)/students/bulk-import",
+      "namedRegex": "^(?:/\\(admin\\))?/students/bulk\\-import(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(admin)/internships.tsx",
+      "page": "/(admin)/internships",
+      "namedRegex": "^(?:/\\(admin\\))?/internships(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(admin)/students/student-list.tsx",
+      "page": "/(admin)/students/student-list",
+      "namedRegex": "^(?:/\\(admin\\))?/students/student\\-list(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(auth)/student-login.tsx",
+      "page": "/(auth)/student-login",
+      "namedRegex": "^(?:/\\(auth\\))?/student\\-login(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(auth)/student-register.tsx",
+      "page": "/(auth)/student-register",
+      "namedRegex": "^(?:/\\(auth\\))?/student\\-register(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(admin)/students/class/[classId].tsx",
+      "page": "/(admin)/students/class/[classId]",
+      "namedRegex": "^(?:/\\(admin\\))?/students/class/(?<classId>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "classId": "classId"
+      }
+    },
+    {
+      "file": "./(admin)/internships/class/[classId].tsx",
+      "page": "/(admin)/internships/class/[classId]",
+      "namedRegex": "^(?:/\\(admin\\))?/internships/class/(?<classId>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "classId": "classId"
+      }
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "./+not-found.tsx",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      }
+    }
+  ],
+  "redirects": [],
+  "rewrites": []
+}
